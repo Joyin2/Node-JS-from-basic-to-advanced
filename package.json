@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Joyin2/Node-JS-from-basic-to-advanced/issues"
   },
-  "homepage": "https://github.com/Joyin2/Node-JS-from-basic-to-advanced#readme"
+  "homepage": "https://github.com/Joyin2/Node-JS-from-basic-to-advanced#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }
