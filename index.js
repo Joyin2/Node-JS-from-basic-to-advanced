@@ -20,6 +20,15 @@ app.get("/profile", (_, res) => {
   res.render("profile", { user });
 });
 
+app.get("/login", (_, res) => {
+  //   const user = {
+  //     name: "Joyin",
+  //     email: "joyinlaskar@gmail.com",
+  //     city: "silchar",
+  //   };
+  res.render("login");
+});
+
 app.get("/about", (_, res) => {
   res.sendFile(`${publicPath}/about.html`);
 });
