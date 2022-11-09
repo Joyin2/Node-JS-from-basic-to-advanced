@@ -36,7 +36,9 @@ app.get("/about", (_, res) => {
 app.get("/help", (_, res) => {
   res.sendFile(`${publicPath}/help.html`);
 });
+
 app.get("*", (_, res) => {
   res.sendFile(`${publicPath}/pagenotfound.html`);
 });
+
 app.listen(4200);
